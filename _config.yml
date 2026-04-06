@@ -5,10 +5,13 @@
 remote_theme: cotes2020/jekyll-theme-chirpy@v7.1.1
 # Plugins settings
 plugins:
-  - jekyll-remote-theme  
+  - jekyll-remote-theme
+  - jekyll-redirect-from    # 이 줄을 추가하세요
   - jekyll-archives
   - jekyll-include-cache
-  # ... 나머지 플러그인
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-seo-tag
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
